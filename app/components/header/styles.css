@@ -1,0 +1,45 @@
+header{
+    border-radius: 0 3px;
+    margin-bottom: 30px;
+    height: 85px;
+    background-color: #222;
+    border-color: #080808;
+}
+nav{
+    width: 1230px;
+    height: 85px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header nav h1{
+    color: rgb(231,0,20);
+    padding: 20px 0 0 95px;
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+nav>div{
+    margin-top: 50px;
+    float: right;
+    width: 120px;
+}
+nav>div>span{
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+nav>div>span>sub{
+    padding-left: 5px;
+    margin-left: 2px;
+    font-size: 14px;
+    color: #f73352;
+    display: none;
+    border-bottom: 1px solid #f73352;
+    position: relative;
+    top: -1px;
+}
+nav>div>span:hover sub{
+    display: inline-block;
+}
